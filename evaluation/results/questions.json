@@ -1,0 +1,472 @@
+[
+  {
+    "question": "What document contains the schematic of Dual Buckle Test?",
+    "answer": "AIS-005/2000 Annex-VI",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "27",
+    "source": "document16.pdf",
+    "pages": "[38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]"
+  },
+  {
+    "question": "What figure illustrates a suitable apparatus to test the durability of the retractor mechanism?",
+    "answer": "AIS-005/2000 Annex-VIII",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "27",
+    "source": "document16.pdf",
+    "pages": "[38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]"
+  },
+  {
+    "question": "What document describes the Type 1 Procedure Test in the Abrasion and Micro Slip Test?",
+    "answer": "AIS-005/2000 Annex-VII",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "27",
+    "source": "document16.pdf",
+    "pages": "[38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]"
+  },
+  {
+    "question": "What is the direction of longitudinal oscillation of the pendulum according to AIS-001 (Part 2) (Rev.1)?",
+    "answer": "parallel to the longitudinal plane of the vehicle",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "4",
+    "source": "document6.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "What is the minimum distance from the periphery of the reflecting surface that the point of contact of the hammer should be located?",
+    "answer": "10 mm",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "4",
+    "source": "document6.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "In Test 2, where is the point of impact defined according to AIS-001 (Part 2) (Rev.1)?",
+    "answer": "as defined in 8.2.2.3 or 8.2.2.4 above",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "4",
+    "source": "document6.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "What does 'Class I' refer to in this ARAI Automotive Industry Standard document?",
+    "answer": "Interior rear-view mirrors",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Class I: Interior rear-view mirrors",
+    "chunk_id": "3",
+    "source": "document3.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "What does 'r' represent in the context of this document?",
+    "answer": "The average of the radii of curvature measured in mm, on a reflecting surface",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "4.6 'r' means",
+    "chunk_id": "3",
+    "source": "document3.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "What is the definition of 'Driver\u2019s ocular points' according to this document?",
+    "answer": "Two points 65 mm apart located 635 mm vertically above the R point relating to the driving position defined in IS:13749 1993",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "4.11 'Driver\u2019s ocular points' means",
+    "chunk_id": "3",
+    "source": "document3.pdf",
+    "pages": "[8, 9, 10]"
+  },
+  {
+    "question": "Which document defines the condition for the transient/burst generator?",
+    "answer": "IEC 61000-4-4",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "57",
+    "source": "document15.pdf",
+    "pages": "[124, 125, 126, 127]"
+  },
+  {
+    "question": "What is the composition of the test equipment according to AIS-004 (Part 3) (Rev.1)?",
+    "answer": "reference ground plane, transient/burst generator, Coupling/Decoupling Network (CDN), and capacitive coupling clamp",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "57",
+    "source": "document15.pdf",
+    "pages": "[124, 125, 126, 127]"
+  },
+  {
+    "question": "Under what conditions can the capacitive coupling clamp be used instead of the Coupling/Decoupling Network in the test setup?",
+    "answer": "When the Coupling/Decoupling Network cannot be used on AC or DC power lines",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "57",
+    "source": "document15.pdf",
+    "pages": "[124, 125, 126, 127]"
+  },
+  {
+    "question": "What is the minimum period for which all seat assemblies should remain unloaded before installation of the 3-D H machine, according to the ARAI Automotive Industry Standard?",
+    "answer": "30 min",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "H-4.2",
+    "chunk_id": "17",
+    "source": "document8.pdf",
+    "pages": "[31, 32]"
+  },
+  {
+    "question": "What should be the position of the seat, if adjustable, before measuring the area contacted by the 3-D H machine according to the ARAI Automotive Industry Standard?",
+    "answer": "Rearmost normal driving or riding position (excluding seat travel used for purposes other than normal driving or riding positions)",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "H-4.3",
+    "chunk_id": "17",
+    "source": "document8.pdf",
+    "pages": "[31, 32]"
+  },
+  {
+    "question": "What should be the fabric covering the area of the seating position contacted by the 3-D H machine, according to the ARAI Automotive Industry Standard?",
+    "answer": "Muslin cotton, plain cotton fabric having 18.9 threads per cm\u00b2 and weighing 0.228 kg/m\u00b2 or knitted or non-woven fabric having equivalent characteristics",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "H-4.4",
+    "chunk_id": "17",
+    "source": "document8.pdf",
+    "pages": "[31, 32]"
+  },
+  {
+    "question": "What should not be present in the buckle according to AIS-005/2000?",
+    "answer": "Partial latch position",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "6",
+    "source": "document16.pdf",
+    "pages": "[11, 12]"
+  },
+  {
+    "question": "Which standards contain provisions that are referenced in AIS-002 (Part 1) (Rev.2):2023?",
+    "answer": "[AIS-037, AIS-001 (Part 1) (Rev.2):2023 III IS 14272:2011, IS 13942:1994, ISO 15008:2003, CIE publication 50 (45), EN 12368]",
+    "difficulty": "medium",
+    "type": "factual",
+    "source_hint": "0.5",
+    "chunk_id": "1",
+    "source": "document5.pdf",
+    "pages": "[3, 4, 5, 6]"
+  },
+  {
+    "question": "What are the typical dimensions for constructing a cell with specified upper frequency limits as per AIS-004 (Part 3) ANNEX 8?",
+    "answer": "[1.69 cm, 1.00, 0.66 cm] for a cell form factor W : b and L/W = 1.00",
+    "difficulty": "medium",
+    "type": "multi-hop",
+    "chunk_id": "28",
+    "source": "document14.pdf",
+    "pages": "[60, 61, 62, 63, 64, 65]"
+  },
+  {
+    "question": "What is the minimum width requirement for parts of the buckle that come into contact with the body of the wearer?",
+    "answer": "At least 46 mm in width",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "6",
+    "source": "document16.pdf",
+    "pages": "[11, 12]"
+  },
+  {
+    "question": "What happens if any visible cracks are present in any plastic cover or retainer of a rigid item according to the standard?",
+    "answer": "The complete plastic part shall then be removed and the remaining assembly shall then be assessed against its continued security.",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "6",
+    "source": "document16.pdf",
+    "pages": "[11, 12]"
+  },
+  {
+    "question": "What is the high temperature for an exterior mirrors cooling and heating repetition test as per IS 14210 : 1994?",
+    "answer": "70 \u00b0C",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Clause 6.10 of IS 14210 : 1994",
+    "chunk_id": "13",
+    "source": "document3.pdf",
+    "pages": "[23, 24, 25]"
+  },
+  {
+    "question": "What marking should be provided for convex mirrors as per the document?",
+    "answer": "'OBJECT IN THE MIRROR ARE CLOSER THAN THEY APPEAR'",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Clause 12.3",
+    "chunk_id": "13",
+    "source": "document3.pdf",
+    "pages": "[23, 24, 25]"
+  },
+  {
+    "question": "What tests are carried out on Rear-View mirrors for verification of Conformity of Production?",
+    "answer": "[Dimensions of mirror, Dimensions of mounting, Marking on mirror, General requirements]",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Clause 13.1",
+    "chunk_id": "13",
+    "source": "document3.pdf",
+    "pages": "[23, 24, 25]"
+  },
+  {
+    "question": "What is the preferred angle of the incident beam from the perpendicular to the test surface according to AIS-001 (Part 1) (Rev.2):2023?",
+    "answer": "0.44 \u00b1 0.09 rad (25 \u00b1 5\u00b0)",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "23",
+    "source": "document5.pdf",
+    "pages": "[38, 39]"
+  },
+  {
+    "question": "What is the minimum diameter of an integrating sphere used in the receiver section according to AIS-001 (Part 1) (Rev.2):2023?",
+    "answer": "127 mm (5 in.)",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "23",
+    "source": "document5.pdf",
+    "pages": "[38, 39]"
+  },
+  {
+    "question": "What condition should the reflected beam meet regarding the sensitive area of the photodetector according to AIS-001 (Part 1) (Rev.2):2023?",
+    "answer": "The reflected beam shall not be wider than the sensitive area of the photodetector, shall not cover less than 50 per cent of such area, and as nearly as possible shall cover the same area segment as used during instrument calibration.",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "23",
+    "source": "document5.pdf",
+    "pages": "[38, 39]"
+  },
+  {
+    "question": "What is the date when AIS-002 (Part 2) (Rev.1):2011 was adopted?",
+    "answer": "22nd February 2011",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "3",
+    "source": "document10.pdf",
+    "pages": "[7, 8, 9, 10]"
+  },
+  {
+    "question": "What is the type of mirrors that are not permitted as per AIS-001 (Part 2) (Rev. 1)?",
+    "answer": "Flat mirrors",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "3",
+    "source": "document10.pdf",
+    "pages": "[7, 8, 9, 10]"
+  },
+  {
+    "question": "For vehicles having engine capacity not exceeding 70cc and having maximum design speed more than 50 km/h, what additional verification is needed for compliance to AIS-002 (Part 2) (Rev.1):2011?",
+    "answer": "Verification as per 16",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "3",
+    "source": "document10.pdf",
+    "pages": "[7, 8, 9, 10]"
+  },
+  {
+    "question": "What is the test method for measuring radiated broadband electromagnetic emissions from vehicles according to AIS-004 (Part 3) Annex 2?",
+    "answer": "The test method described in this Annex shall only be applied to vehicles. If not otherwise stated in this annex, the test shall be performed according to CISPR 12 (Amendment 1 fifth edition 2005).",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "17",
+    "source": "document14.pdf",
+    "pages": "[37, 38, 39]"
+  },
+  {
+    "question": "What should be the engine speed for single cylinder engines during tests as per AIS-004 (Part 3) Annex 2?",
+    "answer": "For single cylinder engines, the engine speed shall be 2500 + 10% rpm.",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "17",
+    "source": "document14.pdf",
+    "pages": "[37, 38, 39]"
+  },
+  {
+    "question": "What should be the state of the electric propulsion motor for vehicles during tests as per AIS-004 (Part 3) Annex 2?",
+    "answer": "For vehicles equipped with an electric propulsion motor, the vehicle shall be driven on a dynamometer without a load, or on non-conductive axle stands, with a constant speed of 40 km/h.",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "17",
+    "source": "document14.pdf",
+    "pages": "[37, 38, 39]"
+  },
+  {
+    "question": "What is the range of frequencies for measurements according to the standard?",
+    "answer": "30 to 1000 MHz",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Measurements are taken over a range of frequencies",
+    "chunk_id": "10",
+    "source": "document12.pdf",
+    "pages": "[16, 17]"
+  },
+  {
+    "question": "What is the initial step for measuring emissions in the case of an ESA?",
+    "answer": "It is permitted to make sweeps of the frequency range identified in '7.13' using a spectrum analyzer",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "In the case of an ESA, as a short initial step",
+    "chunk_id": "10",
+    "source": "document12.pdf",
+    "pages": "[16, 17]"
+  },
+  {
+    "question": "How many frequency bands should be tested at one spot frequency according to the standard?",
+    "answer": "13",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "In each band a test should be carried out at one spot frequency",
+    "chunk_id": "10",
+    "source": "document12.pdf",
+    "pages": "[16, 17]"
+  },
+  {
+    "question": "Who is the chairman of the Automotive Industry Standards Committee mentioned in the document?",
+    "answer": "Shri Shrika",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "24",
+    "source": "document8.pdf",
+    "pages": "[45, 46, 47]"
+  },
+  {
+    "question": "Which company is represented by Mr. Nagendra H. V. according to the document?",
+    "answer": "Toyota Kirloskar Motor Pvt. Ltd",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "24",
+    "source": "document8.pdf",
+    "pages": "[45, 46, 47]"
+  },
+  {
+    "question": "Which organization is Mr. T.V. Singh affiliated with according to the document?",
+    "answer": "Bureau of Indian Standards (BIS)",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "24",
+    "source": "document8.pdf",
+    "pages": "[45, 46, 47]"
+  },
+  {
+    "question": "What UN Regulation does AIS-001 (Part 1) align with?",
+    "answer": "UN R 46 Revision 6, Amendment 7, Supplement 9 to the 04 series of amendments",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "0.3",
+    "chunk_id": "1",
+    "source": "document5.pdf",
+    "pages": "[3, 4, 5, 6]"
+  },
+  {
+    "question": "Who is responsible for the preparation of AIS-001 (Part 1)?",
+    "answer": "The composition of AISC panel and AIS Committee",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "0.6",
+    "chunk_id": "1",
+    "source": "document5.pdf",
+    "pages": "[3, 4, 5, 6]"
+  },
+  {
+    "question": "What material should the stand supporting the parallel plates be made from according to the ARAI Automotive Industry Standard?",
+    "answer": "non-conducting material",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "28",
+    "source": "document14.pdf",
+    "pages": "[60, 61, 62, 63, 64, 65]"
+  },
+  {
+    "question": "Where should the main wiring loom and sensor/actuator cables be routed after following the top of the ground plate as per the ARAI Automotive Industry Standard?",
+    "answer": "to the associated equipment, which shall be sited in an area outside the influence of the electromagnetic field, e.g.: on the floor of the screened room 1 m longitudinally away from the stripline",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "28",
+    "source": "document14.pdf",
+    "pages": "[60, 61, 62, 63, 64, 65]"
+  },
+  {
+    "question": "What is submitted by the vehicle manufacturer regarding its electromagnetic compatibility?",
+    "answer": "type",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "The type, with regard to its electromagnetic compatibility, shall be submitted by the vehicle manufacturer.",
+    "chunk_id": "5",
+    "source": "document14.pdf",
+    "pages": "[13, 14, 15]"
+  },
+  {
+    "question": "What are the relevant vehicle electrical/electronic systems or ESAs according to the document?",
+    "answer": "those which may emit significant broadband or narrowband radiation and/or those which are involved in immunity related functions of the vehicle (see paragraph 2.12.)",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Relevant vehicle electrical/electronic systems or ESAs are those which may emit significant broadband or narrowband radiation and/or those which are involved in immunity related functions of the vehicle (see paragraph 2.12.)",
+    "chunk_id": "5",
+    "source": "document14.pdf",
+    "pages": "[13, 14, 15]"
+  },
+  {
+    "question": "Which elements having radio interference control equipment are considered for radiated emission testing?",
+    "answer": "resistive elements, shielded cap etc.",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "While deciding combinations of different makes, elements having radio interference control equipment (resistive elements, shielded cap etc.) as specified by vehicle manufacturer shall only be considered for radiated emission testing.",
+    "chunk_id": "5",
+    "source": "document14.pdf",
+    "pages": "[13, 14, 15]"
+  },
+  {
+    "question": "What is the title of the annexure that contains the Types of Seat Belt Assemblies?",
+    "answer": "Annex-I",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "1",
+    "source": "document16.pdf",
+    "pages": "[4, 5, 6]"
+  },
+  {
+    "question": "What figure represents a Three Point Belt in this document?",
+    "answer": "Fig.2",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "1",
+    "source": "document16.pdf",
+    "pages": "[4, 5, 6]"
+  },
+  {
+    "question": "Which annexure contains the description of the Trolley, Seat, Anchorages, Stopping Device and Manikin for Dynamic Test?",
+    "answer": "Annex-XV",
+    "difficulty": "easy",
+    "type": "factual",
+    "chunk_id": "1",
+    "source": "document16.pdf",
+    "pages": "[4, 5, 6]"
+  },
+  {
+    "question": "What year was AIS-002 first published?",
+    "answer": "2001",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "Accordingly AIS-002 covering mandatory requirements regarding installation of rear view mirrors been published in 2001",
+    "chunk_id": "0",
+    "source": "document10.pdf",
+    "pages": "[1, 2, 3]"
+  },
+  {
+    "question": "When was the first implementation of AIS-002 after its publication?",
+    "answer": "2003",
+    "difficulty": "easy",
+    "type": "factual",
+    "source_hint": "With technological developments in the rear view mirrors, AIS-002 was taken up for revision",
+    "chunk_id": "0",
+    "source": "document10.pdf",
+    "pages": "[1, 2, 3]"
+  }
+]

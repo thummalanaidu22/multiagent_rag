@@ -1,0 +1,9 @@
+{
+  "precision@5": 0.128,
+  "recall@5": 0.6,
+  "mrr": 0.3427,
+  "num_queries": 50,
+  "faithfulness": 0.715,
+  "answer_relevance": 0.8016,
+  "num_evaluated": 50
+}
