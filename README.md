@@ -222,11 +222,13 @@ venv/bin/python evaluate.py --k 5
 =======================================================
   EVALUATION METRICS SUMMARY
 =======================================================
-  precision@5               0.XXXX
-  recall@5                  0.XXXX
-  mrr                       0.XXXX
-  faithfulness              0.XXXX
-  answer_relevance          0.XXXX
+  precision@5               0.1280
+  recall@5                  0.6000
+  mrr                       0.3427
+  num_queries               50
+  faithfulness              0.6900
+  answer_relevance          0.8110
+  num_evaluated             50
 =======================================================
 Chart saved → evaluation/results/evaluation_chart.png
 ```
@@ -311,13 +313,37 @@ After `evaluate.py` completes, results are saved in `evaluation/results/`:
 | `evaluation_chart.png` | Bar chart — Precision@5, Recall@5, MRR, Faithfulness, Relevance |
 | `evaluation_distribution.png` | Box plot — score distribution across 50 questions |
 
+### Actual Evaluation Results (50 questions, K=5)
+
+| Metric | Score | Interpretation |
+|---|---|---|
+| **Precision@5** | 0.1280 | Source chunk retrieved in top-5 for ~64% of queries (max possible = 0.20 with 1 relevant chunk per query) |
+| **Recall@5** | 0.6000 | 60% of source chunks appear in top-5 retrieved results |
+| **MRR** | 0.3427 | First relevant chunk appears at avg rank ~3 (1 / 0.3427 ≈ 2.9) |
+| **Faithfulness** | 0.6900 | Answers are mostly grounded in context; occasional outside knowledge leakage from mistral |
+| **Answer Relevance** | 0.8110 | 81% of answers directly address what was asked |
+
+**By difficulty:**
+
+| Difficulty | n | Precision@5 | Faithfulness | Answer Relevance |
+|---|---|---|---|---|
+| Easy | 48 | 0.133 | 0.694 | 0.820 |
+| Medium | 2 | 0.000 | 0.600 | 0.600 |
+
 ### Strengths
-- Fully local — no API keys, no data leaving the machine
-- Faithfulness is high for factual questions where the answer is directly in a single chunk
-- Tool-use loop allows the model to check memory before re-retrieving, reducing latency on repeated queries
+- **Fully local** — no API keys, no data leaving the machine; runs on Ollama
+- **High answer relevance (0.81)** — the model addresses questions well using retrieved passages
+- **Recall@5 of 0.60** — the correct source chunk is found in 60% of queries despite 378 chunks in the corpus
+- Tool-use loop persists every Q&A to SQLite, enabling memory-assisted follow-up queries
 
 ### Known Failure Cases
+- **Low Precision@5 (0.128)**: With only 1 ground-truth chunk per question, maximum achievable Precision@5 is 0.20; scoring reflects retrieval rank rather than quality gap
 - **Multi-hop questions**: Require context from two separate chunks; retrieval may only surface one
-- **Table/figure content**: PyMuPDF flattens tables to text; tabular answers may lose structure
+- **Table/figure content**: PyMuPDF flattens tables to plain text; tabular answers may lose structure
 - **Cross-reference questions**: AIS documents reference other standards not in the corpus
-- **Annex/figure index questions**: Questions about figure numbers in an annex often miss because the figure caption is a separate tiny chunk below the retrieval threshold
+- **Annex/figure index questions**: Figure captions are short isolated chunks that fall below the 0.2 similarity threshold
+
+### Key Observations
+- Faithfulness (0.69) is lower than Relevance (0.81) — `mistral` sometimes supplements retrieved context with training knowledge rather than citing the document directly
+- Medium-difficulty questions score worse across all metrics, indicating the 7B model struggles with multi-condition reasoning in technical standards
+- MRR of 0.34 shows the relevant chunk is typically not the top result but is found within rank 3 on average — re-ranking (e.g. cross-encoder) could push this higher
